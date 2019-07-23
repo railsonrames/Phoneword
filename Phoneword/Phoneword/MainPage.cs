@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace Phoneword
@@ -75,7 +76,10 @@ namespace Phoneword
                     "No"
                 ))
             {
-                // to do jovem
+                //try
+                //{
+                //    PhoneDialer.Open(translatedNumber);
+                //}
             }
         }
 
